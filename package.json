@@ -1,8 +1,8 @@
 {
-  "name": "emoji-haiku",
-  "version": "0.0.0",
+  "name": "hubot-emoji-haiku",
+  "version": "0.0.1",
   "private": true,
-  "author": "y",
+  "author": "Logan Donoughe",
   "description": "generates emoji haikus",
   "dependencies": {
     "hubot": "^2.18.0",
