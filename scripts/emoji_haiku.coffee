@@ -6,7 +6,7 @@ module.exports = (robot) ->
   genEmoji = ->
     return emoji[Math.floor(Math.random() * emoji.length)]
 
-  robot.respond /emoji haiku/i, (msg) ->
+  robot.hear /emoji haiku/i, (msg) ->
     msgSend = []
     for num in [1..3]
       msgSend.push genEmoji()
