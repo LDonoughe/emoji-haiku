@@ -1,6 +1,6 @@
 {
   "name": "hubot-emoji-haiku",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "author": "Logan Donoughe",
   "description": "generates emoji haikus",
@@ -20,5 +20,6 @@
   },
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "main": "index.coffee"
 }
